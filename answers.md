@@ -19,7 +19,7 @@
 - **1d.** Pick d that satisfies running time of O(|E|). If d = m/n, then the costs will be equal. so O(2mlog<sub>m/n</sub>n) = O(m(logn/(log(m/n)))). if |E| = |V|<sup>1+ε</sup> or m = n<sup>1+ε</sup>, then we can plug this in for m. This yields: logn/log(n<sup>1+ε</sup>/n) = logn/logn<sup>ε</sup> = logn/εlogn = 1/ε. So O(m(1/ε)) which is just O(m)
  
 
-- **2a.**
+- **2a.** 
 
 
 - **2b.**
