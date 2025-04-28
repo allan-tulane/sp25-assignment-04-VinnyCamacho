@@ -1,14 +1,14 @@
 # CMPS 2200 Assignment 5
 ## Answers
 
-**Name:**_________________________
+**Name:** Vincent Camacho
 
 
 
 
 
 
-- **1a.**
+- **1a.** log<sub>2(n)
 
 
 - **1b.**
