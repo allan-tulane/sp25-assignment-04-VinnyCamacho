@@ -16,7 +16,7 @@
 
 - **1c.** If m is the number of edges or |E| and n is the number of vertices or |V| then we have n deletes and m inserts. The work is O(ndlog<sub>d</sub>n + mlog<sub>d</sub>n).
 
-- **1d.**
+- **1d.** Pick d that satisfies running time of O(|E|), 
 
 
 - **2a.**
