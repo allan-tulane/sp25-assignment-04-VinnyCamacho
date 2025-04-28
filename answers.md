@@ -39,7 +39,7 @@
 - **2e.** Johnson is O(|V| * |E|log|E|). We prefer the new algorithm when |E|log|E| << |V|<sup>2</sup>
 
 
-- **3a.**
+- **3a.** 
 
 
 - **3b.**
