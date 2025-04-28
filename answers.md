@@ -8,7 +8,7 @@
 
 
 
-- **1a.** log<sub>d n
+- **1a.** log(<sub>d)n
 
 
 - **1b.**
