@@ -39,10 +39,9 @@
 - **2e.** Johnson is O(|V| * |E|log|E|). We prefer the new algorithm when |E|log|E| << |V|<sup>2</sup>
 
 
-- **3a.** 
+- **3a.** Yes. In any MST, the maximum edge weight in the tree is the smallest possible among all possible spanning trees of the graph. The MMET seeks a spanning tree where the heaviest edge is as light as possible. By the MST property, no other spanning tree can have a smaller maximum edge weight. Thus, the MST inherently satisfies the MMET condition.
+
+- **3b.** Start with the unusable MST, then consider all |E| possible swaps to get alternative trees and pick the smallest weight
 
 
-- **3b.**
-
-
-- **3c.**
+- **3c.** |E|log|E| to find the initial unusable MST, then |E| for the swaps, so O(|E|log|E|)
