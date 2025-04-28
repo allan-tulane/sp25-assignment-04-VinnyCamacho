@@ -16,8 +16,8 @@
 
 - **1c.** If m is the number of edges or |E| and n is the number of vertices or |V| then we have n deletes and m inserts. The work is O(ndlog<sub>d</sub>n + mlog<sub>d</sub>n).
 
-- **1d.** Pick d that satisfies running time of O(|E|), 
-
+- **1d.** Pick d that satisfies running time of O(|E|). If d = m/n, then the costs will be equal. so O(2mlog<sub>m/n</sub>n) = O(m(logn/(log(m/n)))). if |E| = |V|<sup>1+ε</sup> or m = n<sup>1+ε</sup>, then we can plug this in for m. This yields: logn/log(n<sup>1+ε</sup>/n) = logn/logn<sup>ε</sup> = logn/εlogn = 1/ε. So O(m(1/ε)) which is just O(m)
+ 
 
 - **2a.**
 
